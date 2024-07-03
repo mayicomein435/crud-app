@@ -1,0 +1,37 @@
+.user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .user-item p {
+    margin: 0;
+  }
+  
+  .user-item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .user-item .edit-button {
+    background: black;
+    color: white;
+  }
+  
+  .user-item .delete-button {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .user-item button:hover {
+    opacity: 0.8;
+  }
+  
